@@ -12,7 +12,7 @@
     <header>
         <nav>
             <!-- <ul class="menu"> -->
-                <li><img src="Assets/Logos/logohome.png" alt="logo"></li>
+                <li><img src="Assets/Logos/logohome.png" class="logo" alt="logo"></li>
                 <li> HOME </li>
             <!-- </ul> -->
         </nav>
@@ -26,8 +26,8 @@
                       </p>
                 </p>
                 <p>
-                    <p class="centre"><input type="submit" name="valid_form" value="VOIR LES HEROS" id="choix"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <input type="submit" name="valid_form" value="LES ADVERSAIRES" id="choix"></p>
+                    <p><input type="button" name="heros" value="VOIR LES HEROS" id="heros"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="button" name="adversaire" value="LES ADVERSAIRES" id="adversaire"></p>
                 </p>
                 
             </div>
@@ -68,15 +68,15 @@
     <p>
     <figure>
         <div>
-            <img src="Assets/Illustrations/Bathome2.png " alt="">
+            <img src="Assets/Illustrations/Bathome2.png " class="batman" alt="Robert Pattinson" >
         <figcaption><p> Robert Pattinson <br> (2022)</p></figcaption>
     </div>
         <div>
-            <img src="Assets/Illustrations/Bathome3.png" alt=""> 
+            <img src="Assets/Illustrations/Bathome3.png" class="batman" alt="Christian Bale" > 
         <figcaption><p> Christian Bale <br>(2006-2008-2012)</p></figcaption>
     </div>  
         <div>
-            <img src="Assets/Illustrations/Bathome4.png" alt="">
+            <img src="Assets/Illustrations/Bathome4.png" class="batman" alt="Ben Affleck">
         <figcaption><p>Ben Affleck <br> 2016-2017/2020-2023</p></figcaption> 
     </div>
     </figure>
@@ -97,22 +97,22 @@
     <p >
         <figure>
             <div>
-                <img src="Assets/Illustrations/Bathome5.png " class="btm-img" alt="">
+                <img src="Assets/Illustrations/Bathome5.png " class="nemesis" alt="The Riddler">
             <figcaption><p>The Riddler-Paul Done <br>(2022)</p></figcaption> 
             </div> 
             <div>
-                <img src="Assets/Illustrations/Bathome6.png" alt=""> 
+                <img src="Assets/Illustrations/Bathome6.png" class="nemesis" alt="le joker"> 
             <figcaption><p> Le Joker-Heath Ledger <br>(2008)</p></figcaption> 
             </div> 
             <div>
-                <img src="Assets/Illustrations/Bathome7.png" alt="">
+                <img src="Assets/Illustrations/Bathome7.png" class="nemesis" alt="darkseid">
             <figcaption><p>Darkseid-Ray Porter <br>(2022)</p></figcaption> 
             </div> 
         </figure>
         </p> 
     </article>
     <p>
-        <div class="Bathome12"><img src="Assets/Illustrations/Bathome12.png" alt=""></div>
+        <div class="Bathome12"><img src="Assets/Illustrations/Bathome12.png" alt="Bathome12"></div>
     </p>
 
     <article class="article3">
@@ -129,15 +129,15 @@
         <p>
             <figure>
                 <div>
-                    <img src="Assets/Illustrations/Bathome9.png " alt="">
+                    <img src="Assets/Illustrations/Bathome9.png " class="allies" alt="Alfred Pennyworth">
                     <figcaption> <p> Alfred Pennyworth-Michael Cain <br>(2006-2008-2012)</p></figcaption> 
             </div>
                 <div>
-                    <img src="Assets/Illustrations/Bathome8.png" alt=""> 
+                    <img src="Assets/Illustrations/Bathome8.png" class="allies" alt="Catwoman"> 
                     <figcaption><p>Catwoman-Zoé Kravitz <br>(2008)</p></figcaption>
             </div> 
                 <div>
-                    <img src="Assets/Illustrations/Bathome10.png" alt="">
+                    <img src="Assets/Illustrations/Bathome10.png" class="allies" alt="James Gordon">
                 <figcaption><p>James Gordon <br>(2014-2019)</p></figcaption> 
             </div>
             </figure>
@@ -155,7 +155,7 @@
         lorsque les menaces extraterrestres ou surnaturelles menacent son existence.
     </p>
 
-    <img src="Assets/Illustrations/Bathome11.png " alt="photos des ligues des justiciers">
+    <img class="ligue" src="Assets/Illustrations/Bathome11.png " alt="photos des ligues des justiciers">
     </p>
     <p>
     </article>
@@ -181,7 +181,7 @@
     </div>
 
     <div class="formulaire">
-        <P class="centre"><strong>PRENONS CONTACT</strong></P>
+        <P class="centre"><h1>PRENONS CONTACT</h1></P>
         <form class="loupe" method="post" action="#">
                 <p><label for="email">ADRESSE EMAIL: <br> <input type="email" name="mail" placeholder="Adresse email" required id="email"></label></p>
                 <p><label for="newsletter">NEWSLETTER: <br>
@@ -203,7 +203,7 @@
                         <p><label for="text">Souhaitez vous recevoir des news</label> </p>
 
                 
-                    <p><input type="submit" name="valid_form" value="Des films"id="film" > &nbsp;&nbsp;<input type="submit" name="valid_form" value="Des comics"id=comics > &nbsp;&nbsp;<input type="submit" name="valid_form" value="De tout"></p>
+                    <p class="choixnews"><input type="button" name="film" value="Des films"id="film" > &nbsp;&nbsp;<input type="button" name="comics" value="Des comics"id=comics > &nbsp;&nbsp;<input type="button" name="tout" value="De tout" id="tout"></p>
             
                     <p>
                         <p><strong>MESSAGE</strong></p>
