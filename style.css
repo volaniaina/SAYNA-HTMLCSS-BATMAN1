@@ -1,0 +1,119 @@
+header{
+    /*background-color:red;*/
+    background-image:url(Assets/Illustrations/Bathome1.png);
+    text-align: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 5%;
+    /*border: 1px solid white;*/
+    
+
+}
+
+body{
+    text-align: justify;
+    background-color: black;
+    margin: auto;
+    width: 1111px;
+    padding: 5%;
+    border: solid white;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    /*border: 2px solid rgb(80, 77, 75);*/
+}
+
+.menu-fixe{
+    position: fixed;
+    width: 70px;
+    right: 0;
+    margin: 5%;
+}
+
+
+.menu
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    border: 2px solid rgb(80, 77, 75);
+    
+}
+li{
+    color: white;
+    display: inline;
+    list-style: none;
+    font-style: unset;
+    
+}
+p{
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+.home{
+    margin-left: auto;
+}
+
+section{
+    text-align: center;
+}
+figure{
+    display: flex;
+    justify-content: space-between;
+    
+}
+figure.imgdroite{
+}
+
+div.citation{
+    text-align: center;
+}
+div.formulaire{
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #c4c4c4;
+}
+p.centre{
+    text-align: center;
+    opacity: 0.5;
+    color: white;
+    
+}
+figcaption{
+    text-align: center;
+}
+p.guil{
+    text-align: left;
+}
+p.guil2{
+    text-align: right;
+}
+div.entete{
+    text-align: center;
+}
+
+div.begins{
+    background-color:grey;
+}
+div.Bathome12{
+    text-align: right;
+}
+#confirmer{
+    color: white;
+    border:solid white;
+    background-color: red;
+}
+img.image{
+    float: left;
+}
+span{
+    color: yellow;
+}
