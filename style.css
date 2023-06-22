@@ -7,10 +7,14 @@ header{
     margin: auto;
     padding: 5%;
     width: 1000px;
-    height: 400px;
+    height: 600px;
     /*border: 1px solid white;*/
     
 
+}
+
+.fleche{
+    padding-top: 30%;
 }
 
 
